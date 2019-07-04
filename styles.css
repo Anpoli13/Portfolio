@@ -9,7 +9,7 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #222;
-  background: #f7f5f0;
+  background: #f3f7f3;
 }
 /* Link Styles */
 
@@ -22,6 +22,8 @@ a:hover {
 }
 
 /* Section Styles */
+
+
 
 .main-nav {
   width: 100%;
@@ -74,7 +76,7 @@ header .profile-image {
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2) rotate(360deg);
 }
 .tag {
   background-color: #efefef;
@@ -86,10 +88,10 @@ header .profile-image:hover {
 } 
 .location {
   background-color: #222;
-  color: yellow;
+  color: rgb(199, 247, 199);
 }
 .card {
-  margin: 30px;
+  margin: 20px;
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
@@ -99,8 +101,9 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #056b0a;
 }
+
 
 ul.skills {
   padding: 0;
@@ -139,6 +142,14 @@ footer ul {
 
 footer ul li {
   display: inline-block;
+}
+
+.location-work {
+  color: #999
+}
+
+.dates {
+  color: rgb(111, 128, 117)
 }
 
 a.social {
